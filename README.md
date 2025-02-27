@@ -16,7 +16,7 @@ qvalue
 ## To install the R package from github repository
 ```
 library(devtools)
-install_github("wgmao/PLIER")
+install_github("mchikina/PLIER")
 ```
 
 Check out the vignette [here](vignettes/vignette.pdf) and you can find avilable pathway dataset by calling the function `ListPriors()`.
