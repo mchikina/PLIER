@@ -280,7 +280,7 @@ if(use=="coef"){
 #' @param lambda The regularization paramter
 #' @export
 computeChat=function(gsMat, lambda=5){
-  Chat=pinv.ridge(crossprod(gsMat,), lambda)%*%(t(gsMat))
+  Chat=pinv.ridge(crossprod(gsMat), lambda)%*%(t(gsMat))
 }
 
 #' @keywords internal
